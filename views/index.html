@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Socket.IO Chat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font: 13px Arial;
+        }
+        form {
+            background: #f5f5f5;
+            padding: 10px 8px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #ccc;
+        }
+        form input {
+            padding: 10px;
+            width: 90%;
+            margin-right: .5%;
+            border: none;
+            box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+        }
+        form button {
+            width: 9%;
+            color: #f5f5f5;
+            background: #79b4d2;
+            padding: 9px;
+            border: none;
+            box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+        }
+        #messages { list-style-type: none; margin: 0; padding: 0; }
+        #messages li { padding: 5px 10px; }
+        #messages li:nth-child(odd) { background: #eee; }
+    </style>
+</head>
+<body>
+    <ul id="messages"></ul>
+    <form action="">
+        <input id="message" autocomplete="off" /><button>SEND</button>
+    </form>
+</body>
+</html>

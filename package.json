@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-socket-chat",
+  "version": "1.0.0",
+  "description": "Chat example with Nodejs and Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edvaldoszy/nodejs-socket-chat.git"
+  },
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "chat"
+  ],
+  "author": "Edvaldo Szymonek <edvaldoszy@gmail.com> (http://edvaldotsi.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edvaldoszy/nodejs-socket-chat/issues"
+  },
+  "homepage": "https://github.com/edvaldoszy/nodejs-socket-chat#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
